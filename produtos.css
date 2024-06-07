@@ -1,5 +1,5 @@
 header {
-  background-color: #BBBBBB;
+  background: #BBBBBB;
   padding: 20px 0;
 }
 
@@ -15,10 +15,10 @@ nav {
   right: 0;
 }
 
-nav li {
+nav li{
   display: inline;
   margin-left: 15px;
-  }
+}
 
 nav a{
   color: #000000;
@@ -34,7 +34,7 @@ nav a:hover{
 }
 
 .produtos{
-  width: 940px;
+width: 940px;
   margin: 0 auto;
   padding: 50px;
 }
@@ -51,7 +51,7 @@ nav a:hover{
   border-radius: 10px;
 }
 
-.produtos h2{
+.prouto h2{
   font-size: 30px;
   font-weight: bold;
 }
@@ -63,5 +63,46 @@ nav a:hover{
 .produto-preco{
   font-size: 22px;
   font-weight: bold;
-  margin: 10px 0 0 0;
+  margin-top: 10px 0 0 0;
+}
+
+.produtos li:hover{
+border-color: #C78C19;
+}
+
+.produtos li:hover h2{
+font-size: 34px;
+}
+
+.produtos li:active{
+border-color: #088C19;
+}
+
+footer{
+text-align: center;
+background: url(bg.jpg);
+  padding: 40px 0;
+}
+
+.copyright{
+color: #FFFFFF;
+font-size: 13px;
+  margin-top: 20px;
+}
+
+main{
+ width: 940px;
+ margin: 0 auto;
+}
+
+
+form{
+  margin: 40px 0;
+}
+
+.input-padrao{
+   display: block;
+   margin-bottom: 20px;
+   padding: 10px 25px;
+   width: 50%;
 }
